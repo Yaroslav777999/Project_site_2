@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider_img.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.padding_site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 63px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 43px;
+}
+
+.menu_link {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-decoration: none;
+    padding: 0px 13px;
+    display: block;
+}
+
+.menu_link:hover {
+    color: #212121;
+}
+
+.active {
+    font-weight: 700;
+    color: #212121;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider_text {
+    width: 458px;
+}
+
+.slider_h4 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+
+}
+
+.slider_h2 {
+    font-family: Montserrat;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: -3px;
+    margin-top: 21px;
+}
+
+.slider_p {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    margin-top: 32px;
+}
+
+.slider_button {
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 22.5px;
+    margin-top: 32px;
+}
+
+.slider_button_text {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.nav-circle {
+    width: 30px;
+    height: 30px;
+    opacity: 0.2;
+    background-color: #212121;
+    border-radius: 50px;
+    display: block;
+    margin: 5px;
+
+}
+
+.nav-circle:hover {
+    opacity: 1;
+}
+
+.nav-circle_active {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+
+.second_part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.left_head_list {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    text-decoration: none;
+    padding-right: 20px;
+    border-bottom: #212121 solid;
+}
+
+.left_head_list:hover {
+    color: #6c6c6c;
+}
+
+.left_head_list_2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #6c6c6c;
+    text-decoration: none;
+    padding-left: 10px;
+    border-bottom: #212121 solid 1px;
+}
+
+.left_head_list_2:hover {
+    color: #212121;
+}
+
+.second_part {
+    margin-bottom: 50px;
+}
+
+.left_head_list_3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.left_head_list_3:hover {
+    color: #6c6c6c;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    FLEX-WRAP: wrap;
+}
+
+.heading_main_card {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #212121;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.main_card {
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.text_main_card {
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6c6c6c;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+
+}
+
+.heading_main_card_item {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #212121;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+
+.decor_link {
+    text-decoration: none;
+    color: #212121;
+}
+
+
+.bg_main_card {
+    opacity: 0.1;
+
+}
+
+.card_border:hover {
+    border: 3px solid rgb(161, 161, 161);
+}
+
+.third_part {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.left_content {
+    width: 680px;
+    height: 680px;
+    background-image: url(img/promo_img1_148.png);
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.right_content {
+    width: 680px;
+    height: 680px;
+    background-image: url(img/promo_img_132.png);
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left_content_h4 {
+    Text: exclusive;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+}
+
+.left_content_h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.left_content_p {
+    Text: Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black or highly polished chrome.;
+    font-family: Montserrat;
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 375px;
+    margin-top: 32px;
+}
+
+.fourth_part_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.fourth_part_text {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    text-decoration: none;
+}
+
+.products_card_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fourth_part {
+    margin-bottom: 120px;
+}
+
+.slider_h4_green {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e53935;
+}
+
+.fifth_part {
+    background-image: url(img/slider_84.png);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.fifth_part_slider_text {
+    width: 458px;
+}
+
+.nav_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19px;
+
+}
+
+.card_border {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .card_border_opacity:hover {
+        border: 3px solid rgb(161, 161, 161);
+    }
+    .left_side {
+        width: 570px;
+        height: 570px;
+        background-image: url(img/product_1_lg_66.png);
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sixth_part {
+        display: flex;
+    }
